@@ -4,7 +4,6 @@ pragma solidity 0.8.24; // this is the solidity version
 contract SimpleStorage {
     // favoriteNumber gets initialized to 0 if no value is given.
     uint myFavoriteNumber; // this is a storage variable
-    uint256[] listOfFavoriteNumbers;
     
     struct Person {
         uint256 favoriteNumber;
